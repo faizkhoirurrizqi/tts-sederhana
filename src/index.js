@@ -997,7 +997,7 @@ class Board extends React.Component {
               setActiveClueBoxes={this.props.setActiveClueBoxes}
               setActiveClue={this.props.setActiveClue}
               setBoxInFocus={this.props.setBoxInFocus}
-              isInFocus={this.props.boxInFocus == id}
+              isInFocus={this.props.boxInFocus === id}
             />
           );
         })}
