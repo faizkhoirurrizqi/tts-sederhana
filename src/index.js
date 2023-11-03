@@ -976,9 +976,9 @@ class Clue extends React.Component {
 }
 
 class Board extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     return (
