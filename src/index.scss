@@ -52,8 +52,8 @@ body {
 .crossword-board {
   display: flex;
   flex-wrap: wrap;
-  width: calc(50px * 11);
-  height: calc(50px * 11);
+  width: calc(60px * 8);
+  height: calc(50px * 14);
 }
 
 .box {
@@ -84,6 +84,17 @@ body {
   &:focus {
     background: #bada55;
   }
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.correct-answer {
+  border: 5px solid green;
+}
+
+.incorrect-answer {
+  border: 5px solid red;
 }
 
 .box-label {
